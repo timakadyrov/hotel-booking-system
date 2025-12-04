@@ -1,0 +1,121 @@
+{
+    "name": "DemoHotel",
+    "rooms": [
+        {
+            "room_number": "101",
+            "room_type": "single",
+            "price_per_night": 12000.0,
+            "is_occupied": 0
+        },
+        {
+            "room_number": "102",
+            "room_type": "double",
+            "price_per_night": 20000.0,
+            "is_occupied": 0
+        },
+        {
+            "room_number": "201",
+            "room_type": "suite",
+            "price_per_night": 45000.0,
+            "is_occupied": 0
+        },
+        {
+            "room_number": "202",
+            "room_type": "deluxe",
+            "price_per_night": 30000.0,
+            "is_occupied": 0
+        },
+        {
+            "room_number": "203",
+            "room_type": "deluxe",
+            "price_per_night": 30000.0,
+            "is_occupied": 0
+        }
+    ],
+    "guests": [
+        {
+            "guest_id": "g1",
+            "name": "Иван Иванов",
+            "email": "ivan@example.com",
+            "phone": "+77001112233"
+        },
+        {
+            "guest_id": "g2",
+            "name": "Мария Петрова",
+            "email": "maria@example.com",
+            "phone": "+77001113344"
+        },
+        {
+            "guest_id": "g3",
+            "name": "Алексей Смирнов",
+            "email": "aleksey@example.com",
+            "phone": "+77001114455"
+        },
+        {
+            "guest_id": "g4",
+            "name": "Сауле Нуртен",
+            "email": "saule@example.com",
+            "phone": "+77001115566"
+        },
+        {
+            "guest_id": "g5",
+            "name": "Бекзат Омар",
+            "email": "bekzat@example.com",
+            "phone": "+77001116677"
+        },
+        {
+            "guest_id": "g6",
+            "name": "Турсунов Халзат",
+            "email": "khalzat_tursunov@example.com",
+            "phone": "+7707112299"
+        }
+    ],
+    "bookings": [
+        {
+            "booking_id": "67dcbce0-d43f-437e-a6fd-9e12ec287e17",
+            "guest_id": "g1",
+            "room_number": "101",
+            "check_in_date": "2025-12-05",
+            "check_out_date": "2025-12-07",
+            "status": "booked",
+            "total_price": null
+        },
+        {
+            "booking_id": "b0ec2b45-929b-4818-829b-f6c83506f9b0",
+            "guest_id": "g2",
+            "room_number": "102",
+            "check_in_date": "2025-12-06",
+            "check_out_date": "2025-12-09",
+            "status": "booked",
+            "total_price": null
+        },
+        {
+            "booking_id": "ae290b0e-5781-49d9-bc36-893f07ddd82d",
+            "guest_id": "g3",
+            "room_number": "201",
+            "check_in_date": "2025-12-05",
+            "check_out_date": "2025-12-06",
+            "status": "booked",
+            "total_price": null
+        },
+        {
+            "booking_id": "10e291de-882e-4248-97e1-af5283634288",
+            "guest_id": "g4",
+            "room_number": "202",
+            "check_in_date": "2025-12-14",
+            "check_out_date": "2025-12-16",
+            "status": "booked",
+            "total_price": null
+        },
+        {
+            "booking_id": "bb2216a6-bca3-47b9-8729-4fd0d5130a97",
+            "guest_id": "g6",
+            "room_number": "203",
+            "check_in_date": "2025-12-05",
+            "check_out_date": "2025-12-06",
+            "status": "booked",
+            "total_price": null
+        }
+    ],
+    "payments": []
+}
