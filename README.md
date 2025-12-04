@@ -98,7 +98,8 @@ booking = hotel.create_booking(
 
 ## UML диаграмма
 
-![UML диаграмма классов](project_uml _diagram.png)
+![UML диаграмма классов]<img width="599" height="634" alt="project_uml _diagram" src="https://github.com/user-attachments/assets/c61a5ffb-034a-42de-8be8-5db0af821a8e" />
+
 
 *Диаграмма показывает связи между классами системы*
 
