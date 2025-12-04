@@ -1,8 +1,4 @@
 # hotel-booking-system
-Система бронирования отеля на python
-
-# Hotel Management System
-
 Система управления бронированием номеров в отеле на Python с использованием SQLite и принципов ООП.
 
 ## Описание
@@ -39,15 +35,18 @@
 - Демонстрационный сценарий с заполнением тестовыми данными
 
 ## Структура проекта
+
+```text
 project1/
-├── db.py # Работа с SQLite: инициализация и коннектор
-├── models.py # Классы Person, Guest, Room, Booking
-├── hotel.py # Основной класс Hotel (логика отеля)
-├── payment.py # Класс Payment (платежи)
-├── notification.py # Абстрактный NotificationService и реализации
-├── main.py # Демонстрационный сценарий
-├── hotel_state.json # Сохранённое состояние отеля (автогенерация)
-└── README.md # Описание проекта
+├── db.py                # Работа с SQLite: инициализация и коннектор
+├── models.py            # Классы Person, Guest, Room, Booking
+├── hotel.py             # Основной класс Hotel (логика отеля)
+├── payment.py           # Класс Payment (платежи)
+├── notification.py      # Абстрактный NotificationService и реализации
+├── main.py              # Демонстрационный сценарий
+├── hotel_state.json     # Сохранённое состояние отеля (автогенерация)
+└── README.md            # Описание проекта
+```
 
 
 ## Установка и запуск
@@ -96,6 +95,12 @@ booking = hotel.create_booking(
     check_out=date(2025, 12, 7)
 )
 ```
+
+## UML диаграмма
+
+![UML диаграмма классов](project_uml_diagram.png)
+
+*Диаграмма показывает связи между классами системы*
 
 
 ## Классы и их роль
