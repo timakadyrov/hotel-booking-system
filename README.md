@@ -65,7 +65,7 @@ project1/
 
 ```bash
 python3 main.py
-
+```
 СКрипт main.py:
 - Создаёт БД и таблицы (если нет)
 - Добавляет тестовые номера и гостей
@@ -75,7 +75,6 @@ python3 main.py
 - Сохраняет состояние в hotel_state.json
 
 ### Примеры использования
-```
 
 ```bash
 from models import Room, Guest
