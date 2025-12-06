@@ -75,6 +75,7 @@ python3 main.py
 - Сохраняет состояние в hotel_state.json
 
 ### Примеры использования
+```
 
 ```bash
 from models import Room, Guest
@@ -99,7 +100,7 @@ booking = hotel.create_booking(
     check_in=date(2025, 12, 5),
     check_out=date(2025, 12, 7)
 )
-
+```
 
 ### Тестирование
 
@@ -114,11 +115,11 @@ booking = hotel.create_booking(
 Для запуска тестов используйте команду:
 ```bash
 python3 -m unittest test_hotel.py -v
-
+```
 Либо:
 ```bash
 python3 test_hotel.py
-
+```
 ## UML диаграмма
 
 <img width="599" height="634" alt="project_uml _diagram" src="https://github.com/user-attachments/assets/c61a5ffb-034a-42de-8be8-5db0af821a8e" />
